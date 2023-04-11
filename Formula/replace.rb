@@ -13,7 +13,7 @@ class Replace < Formula
 
   def install
     ENV.deparallelize  # if your formula fails when building in parallel
-    system "make", "prefix=#{prefix}", "release", "install", "install-completion"
+    system "make", "prefix=#{prefix}", "release", "install", "install-autocomplete"
   end
 
   test do
