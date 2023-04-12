@@ -18,7 +18,7 @@ Search and replace text in files and can output a diff of all changes made
 
 Note: conflicts with the existing `rpl` homebrew formula
 
-### etc-hosts-editor
+### eheditor
 
 Manage the OS /etc/hosts file.
 

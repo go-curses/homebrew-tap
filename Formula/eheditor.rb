@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class EtcHostsEditor < Formula
+class Eheditor < Formula
   desc "Manage the OS /etc/hosts file."
   homepage "https://go-curses.org"
   license "Apache-2.0"
