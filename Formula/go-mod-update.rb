@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Replace < Formula
+class GoModUpdate < Formula
   desc "go.mod updater."
   homepage "https://go-curses.org"
   license "Apache-2.0"
