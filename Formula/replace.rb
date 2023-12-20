@@ -5,7 +5,7 @@ class Replace < Formula
   desc "Search and replace text from the command line."
   homepage "https://go-curses.org"
   license "Apache-2.0"
-  head "https://github.com/go-curses/coreutils-replace.git", branch: "release-v0.2.6"
+  head "https://github.com/go-curses/coreutils-replace.git", branch: "release-v0.2.7"
 
   depends_on "go" => :build
 
