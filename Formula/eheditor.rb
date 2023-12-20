@@ -5,7 +5,7 @@ class Eheditor < Formula
   desc "Manage the OS /etc/hosts file."
   homepage "https://go-curses.org"
   license "Apache-2.0"
-  head "https://github.com/go-curses/coreutils-etc-hosts-editor.git", branch: "release-v0.5.2"
+  head "https://github.com/go-curses/coreutils-etc-hosts-editor.git", branch: "release-v0.5.3"
 
   depends_on "go" => :build
 
