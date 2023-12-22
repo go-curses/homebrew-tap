@@ -2,10 +2,10 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class GoModUpdate < Formula
-  desc "go.mod updater."
+  desc "command line utility for updating golang dependencies"
   homepage "https://go-curses.org"
   license "Apache-2.0"
-  head "https://github.com/go-curses/coreutils-go-mod-update.git", branch: "release-v0.2.0"
+  head "https://github.com/go-curses/coreutils-go-mod-update.git", branch: "release-v0.2.1"
 
   depends_on "go" => :build
 
