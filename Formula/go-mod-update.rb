@@ -5,7 +5,7 @@ class GoModUpdate < Formula
   desc "command line utility for updating golang dependencies"
   homepage "https://github.com/go-curses/coreutils-go-mod-update"
   license "Apache-2.0"
-  head "https://github.com/go-curses/coreutils-go-mod-update.git", branch: "release-v0.2.3"
+  head "https://github.com/go-curses/coreutils-go-mod-update.git", branch: "release-v0.2.4"
 
   depends_on "go" => :build
 
