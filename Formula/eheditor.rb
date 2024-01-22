@@ -3,9 +3,9 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Eheditor < Formula
   desc "Manage the OS /etc/hosts file."
-  homepage "https://go-curses.org"
+  homepage "https://github.com/go-curses/coreutils-etc-hosts-editor"
   license "Apache-2.0"
-  head "https://github.com/go-curses/coreutils-etc-hosts-editor.git", branch: "release-v0.5.6"
+  head "https://github.com/go-curses/coreutils-etc-hosts-editor.git", branch: "release-v0.7.1"
 
   depends_on "go" => :build
 
