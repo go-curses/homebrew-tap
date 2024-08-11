@@ -1,33 +1,18 @@
 # Go-Curses Tap
 
-## Summary
+## NOTICE
 
-This homebrew tap provides Go-Curses based command line utilities.
+This tap and all of the utilities that were here have been migrated to their
+official homes over at [go-coreutils/tap]. Please migrate to the new tap by
+uninstalling the utilities installed and un-tapping this tap.
 
-## Formula
+For example, to migrate everything from this tap to the new one:
 
-### strcaseto
+```
+> brew uninstall stracseto replace eheditor go-mod-update
+> brew untap go-curses/tap
+> brew tap go-coreutils/tap
+> brew install strcaseto replace eheditor go-mod-update
+```
 
-Simple command line helper that converts strings to specific strcases such as
-CamelCase and SCREAMING-KEBAB.
-
-### replace
-
-Search and replace text in files and can output a diff of all changes made
-(or would be made).
-
-Note: conflicts with the existing `rpl` homebrew formula
-
-### eheditor
-
-Manage the OS /etc/hosts file.
-
-## How do I install these formulae?
-
-`brew install go-curses/tap/<formula>`
-
-Or `brew tap go-curses/tap` and then `brew install <formula>`.
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Thanks!
